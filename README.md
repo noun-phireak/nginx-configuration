@@ -33,6 +33,6 @@
 	        proxy_pass http://localhost:8000;
 	    }
 	
-		  access_log /var/log/nginx/my_domain_access.log;
-	    error_log /var/log/nginx/my_domain_error.log;
+		access_log /var/log/nginx/my_domain_access.log;
+	    	error_log /var/log/nginx/my_domain_error.log;
 	}
